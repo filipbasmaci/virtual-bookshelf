@@ -1,0 +1,88 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+
+    margin-bottom: 80px;
+    margin-top:80px;
+    color: #333;
+}
+
+/* Empty library message styles */
+.empty-library {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Book list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align:center;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-left: 800px; /* Aligns list items to the center-left */
+    margin-right: 800px; /* Aligns list items to the center-left */
+}
+
+li:hover {
+    background-color: #e0e0e0;
+
+}
+
+.add-new-book {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: LightGray;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px
+    }
+
+.empty {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+}
